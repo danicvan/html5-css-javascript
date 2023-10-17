@@ -1,134 +1,134 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
-	<meta charset="UTF-8"/>
-	<title>Tudo sobre Google Glass</title>
-	<!-- <style>
-		body {
-			background-image: url("fundo.jpg");
-			background-color: hsla(165, 81%, 93%, 0.5);
-			color: rgba(0, 0, 0, 0.9);
-		}
-		p {
-			text-align: justify;
-			text-indent: 50px;
-		}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	</style>-->
-	<link rel="stylesheet" href="_css/estilo.css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <title>Landing Page Fashion</title>
 </head>
-<script language="javascript" src="_javascript/funcoes.js"></script>
+
 <body>
-<div id="interface">
 
-	<header id="cabecalho">
-	<hgroup>
-	<h1>Google Glass</h1>
-	<h2>A revolução do Google está chegando</h2>
-	</hgroup>
+    <!-- Header -->
+    <header class="header" id="header">
+        <section class="section" id="section">
+            <div class="section__left">
+                <div class="section__tel">
+                    <i class="ri-phone-line"></i>
+                    <span>(225) 555-0118</span>
+                </div>
 
-	<img id="icone" src="_imagens/glass-oculos-preto-peq.png"/>
-	<nav id="menu">
-	<h1>Menu Principal</h1>
-	<!--<ol type="1" start="3">
-		<li>Home</li>
-		<li>Especificações</li>
-		<li>Fotos</li>
-		<li>Multimídia</li>
-		<li>Fale conosco</li>
-	</ol>-->
-	<ul type="disc">
-		<li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="index.html">Home</a></li>
-		<li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="specs.html">Especificações</a></li>
-		<li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fotos.html">Fotos</a></li>
-		<li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="_textos/multimidia-txt.html">Multimídia</a></li>
-		<!--<ul type="square">
-			<li>Musicas</li>
-			<li>Videos</li>
-		</ul>-->
-		<li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fale-conosco.html">Fale conosco</a></li>
-	</ul>
-	</nav>
-	</header>
+                <div class="section__mail">
+                    <i class="ri-mail-line"></i>
+                    <span>michelle.rivera@example.com</span>
+                </div>
+            </div>
 
-<section id="corpo">
+            <div class="section__center">
+                <div class="section__mail">
+                    <span>Follow Us get a chance to win 80% off</span>
+                </div>
+            </div>
 
-<article id="noticia-principal">
-	<header id="cabecalho-artigo">
-<hgroup>
-<h3>Tecnologia > &nbsp; &nbsp; &nbsp; Inovações</h3>
-<h1>Saiba tudo sobre o Google Glass</h1>
-<h2>por Gustavo Guanabara</h2>
-<h3 class="direita">Atualizado em 01/Julho/2018</h3>
-</hgroup>
-</header>
+            <div class="section__right">
+                <div class="section__follow">
+                    <span>Follow Us : </span>
+                </div>
 
-<!--<pre>
-<code>
-#include &lt;iostream&gt;
-int main() {
-	cout << "Ola, Mundo!";
-	return 0;
-}
+                <div class="section__media">
+                    <i class="ri-instagram-line"></i>
+                    <i class="ri-youtube-line"></i>
+                    <i class="ri-facebook-circle-line"></i>
+                    <i class="ri-twitter-line"></i>
+                </div>
+            </div>
+        </section>
 
-</code>
-</pre>-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary nav">
+            <div class="container-fluid ">
+                <div class="nav-title">
+                    <a class="navbar-brand" href="#">Bandage</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Shop
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Shop 1</a></li>
+                                <li><a class="dropdown-item" href="#">Shop 2</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pages</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-<h2>O que é</h2>
-<p>O <span style="font-weight: 900;">Google Glass</span> é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada. Também chamado de <!--<i>Project Glass</i>--> <!--<a href="http://glass.google.com" target="_self">Project Glass</a>--> <a href="http://glass.google.com" target="_blank">Project Glass</a>, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeo&shy;con&shy;ferên&shy;cias. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o <em>Google Glass</em> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-furto e de desbloqueio de tela para o acessório.</p>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/assets/img/img-1.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/img/img-1.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/img/img-1.jpg" class="d-block w-100" alt="..." />
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
-<!--<img src="fundo.jpg" width="200"/>-->
-
-<figure class="foto-legenda">
-	<img src= "_imagens/glass-quadro-homem-mulher.jpg"/>
-	<figcaption>
-		<h3>Google Glass</h3>
-		<p>Uma nova maneira de ver o mundo.</p>
-	</figcaption>	
-</figure>
-
-	<section id=""></section>
-
-<h2>Data de lançamento</h2>
-<p>Não há uma data específica e oficial para o dispositivo ser lançado, ainda. Pode ser que ele esteja disponível em demonstrações a partir de 2013, mas seu lançamento para as lojas fica para, pelo menos, 2014.</p>
-
-<h2>Especificações Técnicas</h2>
-<table id="tabelaspec">
-<caption>Tabela Técnica do Google Glass <span>Mar/2013</span></caption>
-
-<tr><td class="ce">Tela</td><td class="cd">Resolução equivalente a tela de 25"</td></tr>
-<tr><td rowspan="2" class="ce">Camera</td><td class="cd">5MP para fotos</td></tr>
-<tr><td class="cd">720p para vídeos</td></tr>
-<tr><td rowspan="2" class="ce">Conectividade</td><td class="cd">Wi-Fi</td></tr>
-<tr><td class="cd">Bluetooth</td></tr>
-<tr><td class="ce">Memória Interna</td><td class="cd">12GB</td></tr>
-</table>
-
-<h2>Como funciona</h2>
-<p>De acordo com fontes próximas do Google, os óculos vão contar com uma pequena tela de LCD ou AMOLED na parte superior e em frente aos olhos do usuário. Com o uso de uma câmera e GPS, você pode se situar, assim como selecionar opções com o movimento da cabeça/</p>
-
-<h2>O que você pode fazer com o Google Glasses</h2>
-<p>O vídeo de divulgação do Google mostra que você pode se transformar em uma espécie de “super<wbr/>-humano”, já que o aparelho pode indicar a quantos metros você está de seu destino, se o metrô está aberto ou fechado, mostrar o clima, agenda e até mesmo permitir que você marque encontros apenas com comandos de voz.</p>
-
-[AQUI ENTRA UM VÍDEO]
-</article>
-</section>
-<aside id="lateral">
-<h1>Outras Notícias</h1>
-<h2>Vídeo mais recente</h2>
-
-[AQUI ENTRA UM VÍDEO]
-
-<h2>Novidades no Glass</h2>
-<p>O Google enfim revelou as especificações completas do Google Glass, e com ele uma surpresa ainda inédita no mercado: a gigante das buscas usará um sistema de áudio baseado na transdução por condução. Através das hastes dos óculos, o som será transmitido para o ouvido do usuário por meio de microvibrações em determinados ossos de sua cabeça, sem usar nenhum tipo de alto-falante.</p>
-<p>Além da surpresa do áudio, a tela montada a frente do olho do usuário também chamou atenção. Serão 640 x 360 pixels de resolução que, em proporção, equivaleria a um monitor de 25 polegadas de alta definição colocado a 2,5 metros de distância do espectador.</p>
-</aside>
-<footer id="rodape">
-<p>Copyright &copy; 2013 - by Gustavo Guanabara <br/>
-<a href="http://facebook.com/cursoemvideo" target="_blank"> Facebook</a> | 
-<a href="http://twitter.com/cursoemvideo" target="_blank"> Twitter</a></p>
-</footer>
-</div>
+    <!-- Boostrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
-</html>
 
+</html>
